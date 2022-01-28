@@ -1,0 +1,29 @@
+.appContainer {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.changeApp {
+  height: 100vh;
+  border-radius: 0;
+  width: 8rem;
+  font-size: 4rem;
+}
+
+.changeApp:hover {
+  outline: none;
+  box-shadow: 0 0 0 0px #eee;
+}
+
+.left:hover {
+    background: linear-gradient(to right, #777 1%, #333 100%);
+    transition: background 1s ease-in;
+}
+
+.right:hover {
+    background: linear-gradient(to left, #777 1%, #333 100%);
+    transition: background 1s ease-in;
+}
